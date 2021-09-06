@@ -1,5 +1,6 @@
 # ProjetoLEDAProjeto_LEDA_2021
 O projeto consiste das seguintes fases:
+*
 Preparação do dataset compreende um registro histórico de ocorrência de COVID-19 para todas as cidades e estados do Brasil. Você deve baixar a planilha localmente para poder processá-la no seu código Java. Atenção, quando descompacta se torna algo bem maior. Você deve tratar apenas com os dados mais atuais (tem um campo chamado "É a última atualização?" ou "is_last" que deve eestar marcado como True). Valores antigos não interessam, você deve utilizar apenas dados não repetidos (existe um campo que indica isso "Dado repetido?"). Gerar um arquivo formatado para ser processado na próxima fase, análise dos algoritmos de ordenação Implemente e utilize todos os algoritmos de ordenação estudados (Selection Sort, Insertion Sort, Merge Sort, Quick Sort, QuickSort com Mediana de 3, counting, e HeapSort) para ordenar os registros de acordo com os seguintes parâmetros:
 •	Ordenação crescente por quantidade acumulada de óbitos;
 •	Ordenação crescente por quantidade acumulada de casos;
